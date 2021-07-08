@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="./assets/css/reset.css" />-->
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+    />
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href='https://fonts.googleapis.com/css?family=Libre+Baskerville' />
+    <!--<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    />
+    <!--<link rel="stylesheet" href="../public/assets/css/google_test_style.css" />-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/google_test_style.css" />
+    <title>GOOGLE TEST</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar level is-info">
+            <h3 class="level-item has-text-centered is-size-3 has-text-white has-background-info">TEST:  Google Places API Usage</h3>
+        </nav>
+    </header>
+    <section class="data-entry container">
+        <div class="inputs container">
+            <input class="input" type="text" id="city-input" placeholder="City">
+            <input class="input" type="text" id="state-input" placeholder="State">
+            <input class="input" type="text" id="activity-input" placeholder="Activity">
+            <input class="input" type="text" id="searcharea-input" placeholder="Search Radius (in meters)"
+        </div>
+        <div class="submit container">
+            <button class="button is-large is-success is-outlined" id="submit-btn">Submit</button>
+        </div>
+    </section>
+    <section class="user-inputs-display">
+        <!--<ul id="results">
+        </ul>-->
+    </section>
+    <section class="container response-results" id="response-results">
+
+    </section>
+
+    <!--
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTt9aaiFRWAsIfdmvIN7tCBSzVc-eDEmU&libraries=places&callback=initMap">
+    </script>-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!--<script src="../public/assets/js/google_test.js"></script>-->
+    <script src="/assets/js/google_test.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+* {
+    background-color: #E2F0FA;
+}
+
+body {
+    height: 100vh;
+}
+
+.input-form {
+    width: 50%;
+    margin-top: 8px;
+}
+
+.input {
+    width: 10vw;
+    margin-left: 1rem;
+}
+
+.inputs {
+    margin: 2rem;
+    text-align: center;
+}
+
+.submit {
+    text-align: center;
+}
+
+.card-storage {
+    margin: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    flex: 1 100%;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 280px;
+    height: 220px;
+}
+
+.subtitle {
+    font-size: x-small;
+}
+
+.data-entry {
+    margin: 2rem;
+}
+
+#submit-btn {
+    margin: 2rem;
+}
+
+.user-inputs-display {
+    margin: 2rem;
+}
