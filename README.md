@@ -39,7 +39,7 @@ In order to reduce a number of APIs to comb through, we'd like to try to use Goo
 * ✅ Build quick, simple UI for user entry to test
 * ✅ Run frontside JS Places API call from local (without server)
   * ❎ Call to Google is made but fails due to a CORS error
-    * _Through research, thought that maybe the issue was related to call being made from local machine and not a server
+    * *Through research, thought that maybe the issue was related to call being made from local machine and not a server*
 * ✅ Run frontside JS Places API call from local server
   * ✅ Created ExpressJS server and successfully execute Places call from UI
   * ❎ Call to Google is made but fails due to a CORS error
